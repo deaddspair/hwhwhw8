@@ -1,0 +1,112 @@
+.section-about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+    }
+}
+
+.about-container {
+     @media screen and (min-width: 1200px) {
+         height: 251px;
+     }
+}
+
+.about-list {
+    padding-left: 0;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+
+     @media screen and (min-width: 1200px) {
+        display: flex;
+        padding-left: 0;
+        margin: 0 auto;
+     }
+}
+
+.about-list__item {
+    width: 450px;
+    height: 226px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        margin: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+        width: calc(100% / 2 - 30px);
+    }
+
+    @media screen and (min-width: 1200px) {
+         width: 270px;
+         height: 120px;
+         margin: 0 30px 0 0;
+         &:last-child {
+             margin-right: 0;
+         }
+    }
+}
+
+.about-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: var(--main-title-color);
+    margin-bottom: 10px;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        text-align: start;
+    }
+}
+
+.about-list__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    max-width: 450px;
+    margin-bottom: 0;
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+    margin-top: 0;
+     @media screen and (min-width: 768px) {
+         width: 354px;
+         margin-top: 0;
+     }
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+        margin-bottom: 0;
+    }
+}
+
+.about-list__icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.about-list__bg-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 30px;
+     @media screen and (min-width: 768px) {
+          width: 354px;
+          height: 120px;
+     }
+
+     @media screen and (min-width: 1200px) {
+        width: 270px;
+        height: 120px;
+     }
+}
